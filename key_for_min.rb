@@ -6,5 +6,4 @@ def key_for_min_value(hash)
   hash.select.collect do |a,b|
     if b <
     end
-  end
 end
