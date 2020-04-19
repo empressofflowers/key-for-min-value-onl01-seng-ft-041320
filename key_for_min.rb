@@ -6,7 +6,7 @@ def key_for_min_value(hash)
   small = nil
 
   hash.each_pair do | key, value |
-    if value > small_value
+    if value < small_value
       small_value = value
       small = key
     end
