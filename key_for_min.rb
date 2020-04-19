@@ -3,5 +3,5 @@
 
 def key_for_min_value(smallest_hash)
   new_hash = []
-  Hash[hash.length-1]
+  new_hash << Hash[hash.length-1]
 end
