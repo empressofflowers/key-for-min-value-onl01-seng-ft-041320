@@ -12,4 +12,3 @@ hash.each_pair do | key, value |
   end
   small_key
 end
-    
