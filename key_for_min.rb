@@ -3,6 +3,6 @@
 
 def key_for_min_value(hash)
   value_array = []
-  hash.each.collect { |key, value| value_array << value.length }
+  hash.each.collect { |key, value| value_array << puts "#{key}, #{value}" }
   value_array.each.collect {|x| }
 end
