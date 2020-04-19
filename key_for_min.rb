@@ -3,12 +3,12 @@
 
 def key_for_min_value(hash)
   small_val = 0
-  small_key = nil
+  small = nil
 
   hash.each_pair do | key, value |
     if value > small_value
       small_value = value
-      small_key = key
+      small = key
     end
   end
     small_key
